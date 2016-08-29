@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--示波器-->
+    <ImageView
+        android:id="@+id/audio_player_anim"
+        android:src="@drawable/audio_player_anim_selector"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+    <why.supermanmusic.View.CircleImageView
+        android:id="@+id/audio_player_album"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/audio_player_anim"
+        android:src="@drawable/music_default_med"
+        android:layout_width="250dp"
+        android:layout_height="250dp"/>
+
+    <!--歌词-->
+    <why.supermanmusic.View.LyricTextView
+        android:id="@+id/audio_player_lyric"
+        android:layout_below="@id/audio_player_album"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

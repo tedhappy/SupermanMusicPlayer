@@ -1,0 +1,106 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+    defaultConfig {
+        applicationId "why.supermanmusic"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions{
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    productFlavors {
+        anzhuomarket {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "anzhuomarket"]
+        }
+        anzhi {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "anzhi"]
+        }
+        baidu {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "baidu"]
+        }
+        wandoujia {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "wandoujia"]
+        }
+        liantong {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "liantong"]
+        }
+        meizu {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "meizu"]
+        }
+        m360 {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "m360"]
+        }
+        xiaomi {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "xiaomi"]
+        }
+        yingyongbao {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "yingyongbao"]
+        }
+        lianxiang {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "lianxiang"]
+        }
+        yingyonghui {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "yingyonghui"]
+        }
+        googleplay {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "googleplay"]
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    //    compile 'com.specyci:residemenu:1.6+'
+    compile files('libs/nineoldandroids-library-2.4.0.jar')
+    //    页签
+    //    compile 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
+    //Optional: see how to use the utility.
+    //        compile 'com.ogaclejapan.smarttablayout:utils-v4:1.6.1@aar'
+    //Optional: see how to use the utility.
+    //    compile 'com.ogaclejapan.smarttablayout:utils-v13:1.6.1@aar'
+    compile project(':SmartTabLayout_library')
+    compile project(':utils-v4')
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.jakewharton:butterknife:5.1.1'
+    compile 'com.android.support:support-v4:23.3.0'
+    compile files('libs/picasso-2.5.2.jar')
+    compile files('libs/eventbus.jar')
+    compile 'com.commit451:NativeStackBlur:1.0.2'
+    compile files('libs/MobCommons-2016.0426.1819.jar')
+    compile files('libs/MobTools-2016.0426.1819.jar')
+    compile files('libs/ShareSDK-Core-2.7.2.jar')
+    compile files('libs/ShareSDK-Douban-2.7.2.jar')
+    compile files('libs/ShareSDK-Email-2.7.2.jar')
+    compile files('libs/ShareSDK-Evernote-2.7.2.jar')
+    compile files('libs/ShareSDK-QQ-2.7.2.jar')
+    compile files('libs/ShareSDK-QZone-2.7.2.jar')
+    compile files('libs/ShareSDK-ShortMessage-2.7.2.jar')
+    compile files('libs/ShareSDK-SinaWeibo-2.7.2.jar')
+    compile files('libs/ShareSDK-TencentWeibo-2.7.2.jar')
+    compile files('libs/ShareSDK-Wechat-2.7.2.jar')
+    compile files('libs/ShareSDK-Wechat-Core-2.7.2.jar')
+    compile files('libs/ShareSDK-Wechat-Favorite-2.7.2.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-2.7.2.jar')
+    compile files('libs/acra-4.6.2.jar')
+    //自我介绍
+    compile 'com.github.flavienlaurent.discrollview:library:0.0.2@aar'
+    //    滑动退出activity
+    compile 'me.imid.swipebacklayout.lib:library:1.0.0'
+    //引导界面
+    compile 'com.github.paolorotolo:appintro:4.0.0'
+    //友盟
+    compile 'com.umeng.analytics:analytics:latest.integration'
+}

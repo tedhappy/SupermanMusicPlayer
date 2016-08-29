@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_scan"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/scan_anim"
+            />
+
+        <TextView
+            android:id="@+id/tv_start_scan"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_scan"
+            android:background="@drawable/scan_btn_color"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:text="开始扫描"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+</FrameLayout>

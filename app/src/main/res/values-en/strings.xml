@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">超人音乐</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+<!--继承acra, 程序crash时提示-->
+    <string name="crash_toast_text">点错了! 程序即将退出!</string>
+
+    <!-- 铃音剪辑-->
+    <string name="button_start_record_activity">新录制</string>
+    <string name="sdcard_readonly">抱歉，SD卡映射为只读，而超人音乐需要其可写入。</string>
+    <string name="no_sdcard">抱歉，超人音乐只在插入SD卡时运行。</string>
+    <string name="sdcard_shared">抱歉，超人音乐无法在手机映射为USB设备时运行。</string>
+    <!--
+       Edit activity
+       -->
+    <!-- Labels next to the start and end time edit boxes -->
+    <string name="start_label">开始：</string>
+    <string name="end_label">结束:</string>
+    <string name="edit_intent">编辑</string>
+    <string name="time_seconds">秒数</string>
+    <!-- After you save a notification or ringtone and have more options
+       for what to do with them -->
+    <string name="what_to_do_with_ringtone">已保存！要将其设为默认铃声或分配到某个联系人吗？</string>
+    <string name="set_default_notification">已保存！要将其设为默认通知吗？</string>
+    <string name="make_default_ringtone_button">设为默认</string>
+    <string name="choose_contact_ringtone_button">分配到联系人</string>
+    <string name="do_nothing_with_ringtone_button">关闭</string>
+    <!-- Progress dialog text for loading, recording, or saving... -->
+    <string name="progress_dialog_loading">载入中…</string>
+    <string name="progress_dialog_recording">录制中…</string>
+    <string name="progress_dialog_saving">保持中…</string>
+    <string name="progress_dialog_cancel">取消</string>
+    <string name="progress_dialog_stop">停止</string>
+
+    <string name="start_marker">开始</string>
+    <string name="end_marker">停止</string>
+    <string name="play">播放</string>
+    <string name="stop">停止</string>
+    <string name="rewind">后退</string>
+    <string name="ffwd">快进</string>
+    <string name="zoom_in">放大</string>
+    <string name="zoom_out">缩小</string>
+    <string name="save_button">保存</string>
+    <string name="button_options">选项</string>
+    <string name="search_edit_box">搜索</string>
+    <!--
+       Menu items
+       -->
+    <string name="menu_save">保存</string>
+    <string name="menu_reset">重置</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_show_all_audio">显示所有音频</string>
+    <!--
+       Context menu items
+       -->
+    <string name="context_menu_edit">编辑</string>
+    <string name="context_menu_delete">删除</string>
+    <string name="context_menu_contact">分配到联系人</string>
+    <string name="context_menu_default_ringtone">设为默认</string>
+    <string name="context_menu_default_notification">设为默认</string>
+
+    <!--
+       File Save dialog
+       -->
+    <string name="file_save_title">另存为：</string>
+    <string name="file_save_button_save">保存</string>
+    <string name="file_save_button_cancel">取消</string>
+    <string name="ringtone_type_label">类型：</string>
+    <string name="type_music">音乐</string>
+    <string name="type_alarm">闹铃</string>
+    <string name="type_notification">通知</string>
+    <string name="type_ringtone">铃声</string>
+    <string name="ringtone_name_label">名称：</string>
+    <string name="artist_name">超人音乐</string>
+    <!--
+       Delete confirmation dialog
+       -->
+    <string name="delete_ringtone">删除铃声</string>
+    <string name="delete_alarm">删除闹铃</string>
+    <string name="delete_notification">删除通知</string>
+    <string name="delete_music">删除音乐</string>
+    <string name="delete_audio">删除音频</string>
+    <string name="confirm_delete_ringdroid">您确定要这样做吗？</string>
+    <string name="confirm_delete_non_ringdroid">是否确定？这个文件不是通过超人音乐创建的！</string>
+    <string name="delete_ok_button">删除</string>
+    <string name="delete_cancel_button">取消</string>
+    <string name="delete_failed">无法删除文件</string>
+    <!--
+       Success and error messages
+       -->
+    <string name="alert_title_success">成功</string>
+    <string name="alert_title_failure">错误</string>
+    <string name="alert_ok_button">确定</string>
+    <string name="alert_yes_button">是的，请吧！</string>
+    <string name="alert_no_button">不，谢谢。</string>
+    <string name="save_success_message">已保存！</string>
+    <string name="default_ringtone_success_message">默认铃声已更改</string>
+    <string name="default_notification_success_message">默认通知铃声已更改</string>
+    <string name="play_error">无法播放此媒体文件</string>
+    <string name="no_unique_filename">无法找到专属文件名</string>
+    <string name="record_error">录制音频失败</string>
+    <string name="too_small_error">无法保存过小的文件，请尝试使其更长。</string>
+    <string name="write_error">写文件时出错</string>
+    <string name="read_error">读文件时出错</string>
+    <string name="no_space_error">您的SD卡已满，没有足够空间保存此文件。</string>
+    <string name="bad_extension_error">抱歉，超人音乐尚不能编辑有类型的文件。</string>
+    <string name="no_extension_error">抱歉，超人音乐不能编辑无扩展名（如.mp3、.wav）的文件</string>
+    <!--
+       Choose Contact Activity
+       -->
+    <string name="choose_contact_title">分配铃声到哪个联系人？</string>
+    <string name="success_contact_ringtone">铃声成功分配到：</string>
+    <!--
+       About
+       -->
+    <string name="about_title">关于超人音乐</string>
+    <string name="about_text">超人音乐特开发此功能, 方便用户根据喜好自己剪辑铃声并保存, 欢迎使用并分享给朋友</string>
+
+</resources>

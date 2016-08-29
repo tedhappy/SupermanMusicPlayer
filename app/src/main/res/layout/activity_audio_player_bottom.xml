@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <!--按钮-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/audio_player_playmode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/audio_player_playmode_allrepeat_selector"/>
+
+        <ImageView
+            android:id="@+id/audio_player_pre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/audio_player_pre_selector"/>
+
+        <ImageView
+            android:id="@+id/audio_player_playstatre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/audio_player_playstate_pause_selector"/>
+
+        <ImageView
+            android:id="@+id/audio_player_next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/audio_player_next_selector"/>
+
+        <ImageView
+            android:id="@+id/audio_player_playlist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/audio_player_playlist_selector"/>
+    </LinearLayout>
+
+    <!-- 下面是进度条-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <!--进度数值-->
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/audio_player_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="8dp"
+            android:text="00:00"/>
+
+        <!--进度条-->
+        <SeekBar
+            android:id="@+id/audio_player_progress_sk"
+            android:layout_width="0dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxHeight="2dp"
+            android:minHeight="2dp"
+            android:progressDrawable="@drawable/audio_player_sk_progressdrawable"
+            android:thumb="@drawable/audio_seek_thumb"
+            android:thumbOffset="0dp"
+            />
+
+        <!-- 总时长-->
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/audio_player_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="8dp"
+            android:text="00:00"/>
+
+    </LinearLayout>
+
+
+    <!-- 下面是歌手和歌曲名-->
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <!--音乐名称-->
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/audio_player_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="20sp"/>
+
+        <!--歌手名-->
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/audio_player_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+</LinearLayout>

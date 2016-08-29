@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<!--返回按钮-->
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/back"
+        android:src="@drawable/audio_player_exit_selector"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+    <ImageView
+        android:layout_marginRight="20dp"
+        android:id="@+id/playactivity_share"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/share"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <ImageView
+        android:id="@+id/playactivity_favorite"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@id/playactivity_share"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_favourite_normal"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+</RelativeLayout>

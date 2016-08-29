@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/audio_player_root"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/base_bg"
+              android:paddingBottom="20dp"
+              android:orientation="vertical">
+    <!--上部-->
+    <include layout="@layout/activity_audio_player_top"/>
+    <!--中部-->
+    <include
+        layout="@layout/activity_audio_player_middle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <!--下部-->
+    <include layout="@layout/activity_audio_player_bottom"/>
+</LinearLayout>

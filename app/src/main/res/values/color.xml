@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="maincolor">#273238</color>
+    <color name="pbcolor">#C56068</color>
+    <color name="mainbody">#3D3D3D</color>
+    <color name="white">#fff</color>
+
+    <color name="bottom_color">#00000000</color>
+    <color name="tab">#754A52</color>
+    <color name="transparent">#00000000</color>
+    <color name="tab_background">#36474F</color>
+    <color name="listview">#484848</color>
+    <color name="listviewpressed">#666</color>
+    <color name="playlist_artist">#666</color>
+    <color name="btn_bg">#BE4D56</color>
+    <color name="float_btn">#BE4D56</color>
+    <color name="float_btn_pre">#BF646A</color>
+    <color name="ripple">#F06292</color>
+
+    <!-- 铃音剪辑-->
+    <color name="waveform_selected">#33b5e5</color>
+    <color name="waveform_unselected">#195a72</color>
+    <color name="waveform_unselected_bkgnd_overlay">#0a242d</color>
+    <color name="selection_border">#ffffff</color>
+    <color name="playback_indicator">#ffff66</color>
+    <color name="grid_line">#66ffffff</color>
+    <color name="timecode">#ddffffdd</color>
+    <color name="timecode_shadow">#aa000000</color>
+
+    <color name="type_bkgnd_alarm">#88880000</color>
+    <color name="type_bkgnd_ringtone">#88008888</color>
+    <color name="type_bkgnd_notification">#88666600</color>
+    <color name="type_bkgnd_music">#88000000</color>
+    <color name="type_bkgnd_unsupported">#88cccccc</color>
+
+
+
+
+</resources>
