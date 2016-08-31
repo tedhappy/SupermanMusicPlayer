@@ -79,7 +79,7 @@
 
 * Email: <why0229@foxmail.com>
 
-##公众号
+##微信公众号
 
 * 程序员的笔记(coder_notes)
 
