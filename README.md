@@ -42,17 +42,17 @@
 
 ##播放器截图
 
-* 播放器的splash界面
+* 主界面
 
-![icon](screenshots/screenshot1.jpg)
+![icon](screenshots/1.gif)
 
-* 音乐列表界面
+* 播放音乐
 
-![icon](screenshots/screenshot2.jpg)
+![icon](screenshots/2.gif)
 
-* 炫酷的侧滑菜单
+* 侧滑菜单
 
-![icon](screenshots/screenshot3.jpg)
+![icon](screenshots/3.gif)
 
 * 歌曲扫描界面
 
