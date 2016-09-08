@@ -54,17 +54,13 @@
 
 ![icon](screenshots/3.gif)
 
-* 歌曲扫描界面
+* 剪辑音乐或铃声
 
-![icon](screenshots/screenshot4.jpg)
+![icon](screenshots/4.gif)
 
-* 正在播放界面, 可显示歌词和专辑图片, 背景为专辑图片的模糊显示 
+* 新录制音频并剪辑
 
-![icon](screenshots/screenshot5.png)
-
-* 剪辑音乐界面, 可任意剪辑歌曲, 将剪辑后的歌曲片段作为铃声
-
-![icon](screenshots/screenshot6.jpg)
+![icon](screenshots/5.gif)
 
 ##关于我
 
