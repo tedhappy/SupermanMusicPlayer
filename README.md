@@ -73,6 +73,7 @@
 
 ##联系我
 
+* 如果你觉得不错, 欢迎star和follow
 * Email: <why0229@foxmail.com>
 
 ##微信公众号
